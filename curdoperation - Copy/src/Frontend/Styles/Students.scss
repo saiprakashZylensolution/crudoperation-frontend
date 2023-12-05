@@ -1,0 +1,149 @@
+@import "../Variables/Variables.scss";
+
+body {
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        li,
+        ul {
+                @include allzero();
+        }
+
+        a {
+                text-decoration: none;
+        }
+
+        .App {
+                .table {
+                        @include d-center();
+                        @include d-fc();
+
+                        table {
+                                margin: 20px 10px;
+                                width: 80%;
+                                border: 1px solid black;
+                                border-collapse: collapse;
+                                td {
+                                        padding:10px;
+                                        border: 1px solid black;
+                                        border-collapse: collapse;
+                                        text-align: justify;
+                                }
+
+                                th {
+                                        padding:10px;
+                                        border: 1px solid black;
+                                        border-collapse: collapse;
+                                        text-align: center;
+                                }
+
+                                .btns {
+                                        @include d-sb();
+                                }
+                        }
+
+                        .create {
+                                @include buttonstyle($bg-color-btn, $white, $transparent);
+                                margin-top: 20px;
+                        }
+
+                }
+
+                .popup {
+                        height: 300px;
+                        width: 700px;
+                        margin: 20px auto;
+                        background-color: #eaf4f4;
+                        border-radius: 40px;
+                        @include d-center();
+                        @include d-fc();
+
+                        h1 {
+                                margin-bottom: 30px
+                        }
+
+                        .delete {
+                                @include buttonstyle($black, $white, $transparent);
+                                margin-right: 20px;
+                        }
+                        .back{
+                                @include buttonstyle ($white,$black, $black);
+                        }
+
+                }
+
+                .students {
+                        width: 30%;
+                        border-radius: 15px;
+                        margin: 20px auto;
+                        background-color: #d7e3fc;
+                        padding: 20px;
+                        @include d-center();
+                        @include d-fc();
+
+                        .d-flex {
+                                @include d-sb();
+                                @include w100();
+                                margin-bottom: 10px;
+                        }
+
+                        .back {
+                                margin-top: 20px;
+                                width: 120px;
+                                padding: 10px;
+                                border-radius: 15px;
+                                background-color: $white;
+                                border: 2px solid $black;
+                                font-size: 18px;
+                                font-weight: 600;
+                                color: $black;
+                        }
+                }
+                .update,.create{
+                        margin: 20px auto;
+                        width: 20%;
+                        background-color: #e2fdff;
+                        padding: 20px;
+                        border-radius: 20px;
+                        .box{
+                                @include d-fc();
+                                width: 95%;
+                                margin-bottom: 30px;
+                                label{
+                                        font-size: 18px;
+                                        font-weight: 600;
+                                        margin-bottom: 10px
+                                }
+                                input{
+                                        padding: 8px;
+                                        border-radius: 4px;
+                                        @include arrowhide {
+                                                -webkit-appearance: none;
+                                                margin: 0;
+                                        }
+                                        @include hover{
+                                                background-color: #eaf4f4;
+                                        }
+                                }
+                               
+                                
+                        }
+                        .btn-div{
+                                @include d-sb();
+                                .saveBtn{
+                                        @include saveBtn($btncolorsave,$white);
+                                }       
+                                .BackBtn{
+                                        @include saveBtn($black,$white);
+                                } 
+                        }
+                        
+                               
+                }
+        }
+}

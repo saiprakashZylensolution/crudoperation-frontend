@@ -1,0 +1,176 @@
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body li,
+body ul {
+  padding: 0;
+  margin: 0;
+}
+body a {
+  text-decoration: none;
+}
+body .App .table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+body .App .table table {
+  margin: 20px 10px;
+  width: 80%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+body .App .table table td {
+  padding: 10px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: justify;
+}
+body .App .table table th {
+  padding: 10px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+body .App .table table .btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .App .table .create {
+  width: 170px;
+  padding: 10px;
+  border-radius: 40px;
+  background-color: #4895ef;
+  border: 2px solid rgba(0, 0, 0, 0);
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 20px;
+}
+body .App .popup {
+  height: 300px;
+  width: 700px;
+  margin: 20px auto;
+  background-color: #eaf4f4;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+body .App .popup h1 {
+  margin-bottom: 30px;
+}
+body .App .popup .delete {
+  width: 170px;
+  padding: 10px;
+  border-radius: 40px;
+  background-color: #000;
+  border: 2px solid rgba(0, 0, 0, 0);
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  margin-right: 20px;
+}
+body .App .popup .back {
+  width: 170px;
+  padding: 10px;
+  border-radius: 40px;
+  background-color: #fff;
+  border: 2px solid #000;
+  font-size: 22px;
+  font-weight: 600;
+  color: #000;
+}
+body .App .students {
+  width: 30%;
+  border-radius: 15px;
+  margin: 20px auto;
+  background-color: #d7e3fc;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+body .App .students .d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+body .App .students .back {
+  margin-top: 20px;
+  width: 120px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #fff;
+  border: 2px solid #000;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+}
+body .App .update, body .App .create {
+  margin: 20px auto;
+  width: 20%;
+  background-color: #e2fdff;
+  padding: 20px;
+  border-radius: 20px;
+}
+body .App .update .box, body .App .create .box {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin-bottom: 30px;
+}
+body .App .update .box label, body .App .create .box label {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+body .App .update .box input, body .App .create .box input {
+  padding: 8px;
+  border-radius: 4px;
+}
+body .App .update .box input::-webkit-outer-spin-button, body .App .update .box input::-webkit-inner-spin-button, body .App .create .box input::-webkit-outer-spin-button, body .App .create .box input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+body .App .update .box input:hover, body .App .create .box input:hover {
+  background-color: #eaf4f4;
+}
+body .App .update .btn-div, body .App .create .btn-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .App .update .btn-div .saveBtn, body .App .create .btn-div .saveBtn {
+  width: 100px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #00a6fb;
+  color: #fff;
+}
+body .App .update .btn-div .BackBtn, body .App .create .btn-div .BackBtn {
+  width: 100px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #000;
+  color: #fff;
+}/*# sourceMappingURL=Students.css.map */
